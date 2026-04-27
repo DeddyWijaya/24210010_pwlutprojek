@@ -7,7 +7,7 @@ use App\Http\Controllers\JurusanController;
 use App\Http\Controllers\MataKuliahController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('mahasiswa.create');
 });
 
 Route::get('/mahasiswa', [MahasiswaController::class, 'index'])->name('mahasiswa.index');
