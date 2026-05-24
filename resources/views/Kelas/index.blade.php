@@ -37,10 +37,7 @@
 </nav>
 
 <div style="text-align: center;">
-    <a href="/5">
-        <button class="btn btn-primary mx-auto" style="width:90%; margin:10px;">
-            Kembali
-        </button>
+    <a href="/5"><button class="btn btn-primary mx-auto" style="width:90%; margin:10px;">Kembali</button>
     </a>
 </div>
 
