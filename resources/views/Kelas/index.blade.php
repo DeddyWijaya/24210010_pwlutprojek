@@ -44,7 +44,7 @@
     </a>
 </div>
 
-<table class="table table-bordered table-hover align-middle shadow-sm">
+<table style="width:90%; margin:auto;" class="table table-bordered table-hover align-middle shadow-sm">
 
     <thead class="table-dark">
         <tr>

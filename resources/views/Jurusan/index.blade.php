@@ -43,7 +43,7 @@
     <div style="text-align: center;">
         <a href="/4"><button type="button" class="btn btn-primary mx-auto" style ="width:90%; margin:10px;">Kembali</button></a>
     </div>
-    <table class="table table-bordered table-hover align-middle shadow-sm">
+    <table style="width:90%; margin:auto;" class="table table-bordered table-hover align-middle shadow-sm">
         
         <thead class="table-dark">
             <tr>
