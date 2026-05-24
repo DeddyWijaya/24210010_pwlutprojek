@@ -7,13 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class MataKuliah extends Model
 {
-      protected $table = 'mata_kuliah';
+      protected $table = 'matakuliah';
 
      protected $fillable = [
-        'Jurusan_Id',
-        'Kode_Mata_Kuliah',
-        'Nama_Mata_Kuliah',
-        'SKS',
-        'Dosen_Id'
+        'jurusan_id',
+        'dosen_id',
+        'nama_mk',
+        'kode_mk',
+        'sks'
     ];
 }

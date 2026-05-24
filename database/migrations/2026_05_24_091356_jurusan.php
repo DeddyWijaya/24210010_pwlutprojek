@@ -11,7 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+         Schema::create('jurusan', function (Blueprint $table) {
+            $table->id();
+            $table->string('nama_jurusan');
+            $table->string('kode_jurusan')->unique();
+            $table->timestamps();
+        });
     }
 
     /**
