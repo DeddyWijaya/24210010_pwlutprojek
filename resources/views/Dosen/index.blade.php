@@ -44,19 +44,20 @@
         </div>
     <table class="table table-bordered table-hover align-middle shadow-sm">
         
-        <thead class="table-dark">
-            <tr>
-                <th scope="col">No</th>
-                <th scope="col">Id Jurusan</th>
-                <th scope="col">Nama Lengkap</th>
-                <th scope="col">NIP</th>
-                <th scope="col">NIDN</th>
-                <th scope="col">Pendidikan</th>
-                <th scope="col">Tanggal Lahir</th>
-                <th scope="col">Tempat Lahir</th>
-                <th scope="col">Alamat</th>
-                <th scope="col" class="text-center">Aksi</th>
-        </thead>
+    <thead class="table-dark">
+    <tr>
+        <th scope="col">No</th>
+        <th scope="col">Id Jurusan</th>
+        <th scope="col">Nama Lengkap</th>
+        <th scope="col">NIP</th>
+        <th scope="col">NIDN</th>
+        <th scope="col">Pendidikan</th>
+        <th scope="col">Tanggal Lahir</th>
+        <th scope="col">Tempat Lahir</th>
+        <th scope="col">Alamat</th>
+        <th scope="col" class="text-center">Aksi</th>
+    </tr>
+    </thead>
             @foreach ($dosen as $nomor => $d)
             <tr>
                 <th scope="row">{{ $nomor + 1 }}</th>
